@@ -1,0 +1,42 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "api automation app diplom fesenko",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --config cucumber.config.js && node generateReport.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fesenkoAR/api_automation_app.git"
+  },
+  "keywords": [
+    "api",
+    "automation",
+    "node.js",
+    "cucumber",
+    "javascript",
+    "testing"
+  ],
+  "author": "fesenko andrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fesenkoAR/api_automation_app/issues"
+  },
+  "homepage": "https://github.com/fesenkoAR/api_automation_app#readme",
+  "dependencies": {
+    "allure-js-commons": "^2.15.1",
+    "axios": "^1.6.8",
+    "chai": "^5.1.1",
+    "cucumber": "^6.0.7",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "log4js": "^6.9.1",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.7.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "supertest": "^7.0.0"
+  }
+}
